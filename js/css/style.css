@@ -1,0 +1,17 @@
+#bai1 {
+  display: none;
+}
+#bai2 {
+  display: none;
+}
+#studentTable {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+th,
+td {
+  text-align: left;
+  padding: 16px;
+  border: 1px solid #ddd;
+}

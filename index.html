@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quản lý mảng</title>
+    <link rel="stylesheet" href="/js/css/style.css">
+  </head>
+  <body>
+    <div id="bai1" >
+      <form action="">
+        <input type="text" id="inputValue" />
+      <input type="reset" onclick="addToArray()" value="Thêm"></input>
+      </form>
+      <br>
+      <div id="arrayDisplay"></div>
+      <br />
+      <button onclick="doubleArray()">Nhân đôi</button>
+      <button onclick="editArray()">Sửa</button>
+      <button onclick="deleteArray()">Xóa</button>
+      <button onclick="sortIncreaseArray()">Tăng dần</button>
+      <button onclick="sortDecreaseArray()">Giảm dần</button>
+    </div>
+   
+    <button id="btnBai1" onclick="myFunction()">Bài 1</button>
+    <br>
+    <br>
+<!-- Bài 2 -->
+    <button id="btnBai2" onclick="myFunction2()">Bài 2</button>
+    <div id="bai2">
+      <form>
+        <input type="text" id="inputString" placeholder="Nhập chuỗi">
+
+        <input type="reset" onclick="displayString()" value="Hiển thị chuỗi">
+      </form>
+        <br>
+        <p id="output"></p>
+        <div id="result"></div>
+        <button onclick="displayLength()">Hiển thị độ dài chuỗi</button>
+        <button onclick="deleteString()">Xóa chuỗi</button>
+        <button onclick="insertString()">Thêm chuỗi</button>
+        <button onclick="replaceString()">Thay thế chuỗi</button>
+        <button onclick="upperCase()"> Chuỗi in hoa</button>
+        <button onclick="lowerCase()">Chuỗi in thường</button>
+        <div>Chuỗi hiện tại:
+          <p id="outString"></p>
+        </div>
+    </div>     
+        <br>
+        <br>
+         
+<!-- Bài 3: -->
+<button>Bài 3</button>
+<br>
+<br>
+<div id="bai3">
+  <table id="studentTable" style="width: 100%;">
+    <th>Số báo danh</th>
+    <th>Tên</th>
+    <th>Tuổi</th>
+    <th>Giới tính</th>
+    <th>Điểm môn văn</th>
+    <th>Điểm môn toán</th>
+    <th>Tổng điểm</th>
+  </tr>
+</table>
+<br>
+<br>
+<button onclick="displayHighestScores()">Hiển thị điểm cao nhất</button>
+<button onclick="sortByMath(true)">Sắp xếp theo toán(Tăng dần)</button>
+<button onclick="sortByMath(false)">Sắp xếp theo toán (Giảm dần)</button>
+<button onclick="sortByLiterature(true)">Sắp xếp theo văn (Tăng dần dần)</button>
+<button onclick="sortByLiterature(false)">Sắp xếp theo văn (Giảm dần)</button>
+<button onclick="sortByTotalScores(true)">Sắp xếp theo tổng điểm (Tăng dần)</button>
+<button onclick="sortByTotalScores(false)">Sắp xếp theo tổng điểmm (Giảm dần)</button>
+</div>
+ 
+<!-- Bai 4: -->
+<br>
+<br>
+
+<button> Bài 4 </button>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
